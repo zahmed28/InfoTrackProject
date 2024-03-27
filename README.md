@@ -28,21 +28,26 @@ Acts as the entry point for the front-end application to interact with the backe
 
 ### GoogleWebScrapper Service:
  Takes a keyword and a website URL and returns the ranking of the website for the specified keyword on Google.
- ![image](https://github.com/zahmed28/SEORankingTracker/assets/86317150/aa36631b-2487-4ac3-a5b5-573d794a6a12)
+![image](https://github.com/zahmed28/SEORankingTracker/assets/86317150/6b8a7fc4-9497-45e9-916e-6a849c11424d)
 
-![image](https://github.com/zahmed28/SEORankingTracker/assets/86317150/cc8b772a-f70e-44b2-ac24-1f50debb6aa1)
+![image](https://github.com/zahmed28/SEORankingTracker/assets/86317150/f1b96290-a1dd-4982-b88a-574ac4e7f405)
+
 
 ### SearchResultWrite Service:
 Receives search ranking results and records them in a database for future reference.
-![image](https://github.com/zahmed28/SEORankingTracker/assets/86317150/f8161c74-71c2-47e2-9dd1-46ec27384f58)
+![image](https://github.com/zahmed28/SEORankingTracker/assets/86317150/a798cfbd-e2c7-43c1-8993-bff02e232521)
 
-![image](https://github.com/zahmed28/SEORankingTracker/assets/86317150/418de68b-d6cc-49b5-8584-5d36dc8ec76d)
+
+![image](https://github.com/zahmed28/SEORankingTracker/assets/86317150/04529331-5b7b-415c-af0a-fa75440c3b69)
+
 
 ### SearchResultRead Service:
 Retrieves a history of search results from the database.
-![image](https://github.com/zahmed28/SEORankingTracker/assets/86317150/1301b1e2-8f37-4584-b402-4c6058578533)
+![image](https://github.com/zahmed28/SEORankingTracker/assets/86317150/80855226-3377-438a-83f7-cf09a66467e3)
 
-![image](https://github.com/zahmed28/SEORankingTracker/assets/86317150/953db8a8-2fe6-44e6-95f1-38da3926fc4d)
+
+![image](https://github.com/zahmed28/SEORankingTracker/assets/86317150/7a149b35-55bc-4feb-8968-dddd488e42ab)
+
 
 
 ## Technology Stack
@@ -76,7 +81,8 @@ Retrieves a history of search results from the database.
 
 ## High Level Architecture: 
 
-![image](https://github.com/zahmed28/SEORankingTracker/assets/86317150/822c5c0d-db3b-48cb-a358-5ab8292018f8)
+![HighLevelDiagram](https://github.com/zahmed28/SEORankingTracker/assets/86317150/dbc99984-7127-4165-a527-9818751c6816)
+
 
 ## Workflow
 
