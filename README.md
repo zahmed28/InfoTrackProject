@@ -147,6 +147,7 @@ GO
 2.Open the folder SPA/my-angular-app.
 
 3.Run 'npm i' to install dependencies and 'npm update' to update them.
+Note: If you get unable to resolve dependencies error. Please delete package-lock.json file and start step 3.
 
 4.Execute 'ng serve' to start the front-end server.
 
