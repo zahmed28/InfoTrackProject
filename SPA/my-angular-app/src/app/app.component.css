@@ -1,0 +1,49 @@
+/* Styles for the navigation bar */
+nav {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #ffffff; /* Clean white background */
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    padding: 10px 0; /* Vertical padding */
+}
+
+/* Centering the menu items and removing default list styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto; /* Auto margins for horizontal centering */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center menu items */
+}
+
+/* Style for each menu item */
+nav ul li {
+    margin: 0 25px; /* Space between menu items */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Style for each link */
+nav ul li a {
+    text-decoration: none;
+    color: #333333; /* Dark font color */
+    font-size: 16px;
+    padding: 8px 15px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect for links */
+nav ul li a:hover {
+    color: #007BFF; /* Bright blue on hover */
+    background-color: #ffffff; /* Light grey background on hover */
+}
+
+/* Active link styles */
+nav ul li a.active-link {
+    color: #FFFFFF; /* White text for active link */
+    background-color: #0696b7; /* Bright blue background for active link */
+    border: 1px solid #0696b7; /* Border to match */
+}

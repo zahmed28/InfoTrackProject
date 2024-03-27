@@ -1,0 +1,30 @@
+<div class="container">           
+    <input type="text" id="searchBar" class="form-control custom-search-bar" [(ngModel)]="searchTerm" placeholder="Search...">           
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Keyword</th>
+          <th>URL</th>
+          <th>Ranking</th>
+          <th>Search Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let record of filteredRecords">
+          <td>{{ record.id }}</td>
+          <td>{{ record.query }}</td>
+          <td>{{ record.resultURL }}</td>
+          <td class="ranking-indices">{{ record.rankingIndices }}</td>
+          <td>{{ record.dateCreated | date:'MMMM d, y, h:mm a' }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- Pagination Controls -->
+  <div class="pagination-controls">
+    <button (click)="changePage(currentPage - 1)" [disabled]="currentPage === 1">Previous</button>
+    <span>Page {{ currentPage }}</span>
+    <button (click)="changePage(currentPage + 1)" [disabled]="searchData.records.length < itemsPerPage">Next</button>
+  </div>
+  </div>
+  
