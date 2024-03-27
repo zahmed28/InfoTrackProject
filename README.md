@@ -101,9 +101,12 @@ This service takes the search results and stores them in the database.
 A confirmation of recording is sent back to the API Gateway.
 The API Gateway aggregates the responses (if needed) and sends the search ranking back to the front-end application.
 
-![image](https://github.com/zahmed28/SEORankingTracker/assets/86317150/d9351483-7ec1-449f-860f-ef2e23600e5f)
-![image](https://github.com/zahmed28/SEORankingTracker/assets/86317150/0a66946e-9bde-4780-82d6-6994fb740c0e)
-![image](https://github.com/zahmed28/SEORankingTracker/assets/86317150/cb674f1b-bc0d-4431-84b7-b4c8237c2501)
+![image](https://github.com/zahmed28/SEORankingTracker/assets/86317150/2df769af-15b5-4999-a7ac-de4403a8212d)
+
+![image](https://github.com/zahmed28/SEORankingTracker/assets/86317150/3129e551-7376-4a3e-9fe4-f8a40c8bf35b)
+
+![image](https://github.com/zahmed28/SEORankingTracker/assets/86317150/8b2abe40-4960-4373-8b44-a16d8d6ccf70)
+
 
 
 ### Search History Operation:
@@ -116,9 +119,11 @@ The API Gateway forwards this request to the SearchResultRead Service.
 The service retrieves the history of search results from the database.
 It formats this data as required and returns it to the API Gateway.
 The API Gateway sends the search history data back to the front-end application for display to the user.
+![image](https://github.com/zahmed28/SEORankingTracker/assets/86317150/dbc87941-f84b-4504-9c9b-3f9bda04ba1a)
 
-![image](https://github.com/zahmed28/SEORankingTracker/assets/86317150/d21bf65a-a8ff-484f-9322-a150ab57b9f7)
-![image](https://github.com/zahmed28/SEORankingTracker/assets/86317150/fa968f6e-6c4a-41f1-853d-f31e45d1f648)
+![image](https://github.com/zahmed28/SEORankingTracker/assets/86317150/2bfd2680-6b68-4d97-9ccb-64f7acd7aa21)
+
+![image](https://github.com/zahmed28/SEORankingTracker/assets/86317150/a0db4eab-9cd5-4452-bbdf-09c97b8df348)
 
 
 # Database Script:
